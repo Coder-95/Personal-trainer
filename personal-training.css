@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #BFCCE0;
+}
+
+h1, h2, h3, {
+
+}
+
+.navbar {
+    background-color: #10A3E0;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    text-decoration-line: none;
+    border-radius: 8px;
+
+}
+
+.nav-item {
+    text-decoration: none;
+    transition: background-color 0.3s;
+    padding: 10px 20px;
+}
+
+.nav-item:link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-item:visited {
+    color: black;
+}
+
+.nav-item:hover {
+    background-color: #BFCCE0;
+    color: #333;
+    border-radius: 5px;
+
+}
+
+.navbar:hover {
+    text-transform: ;
+}
+
+.Main {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+#First-image {
+
+    width: 300px;
+    height: 300px;
+
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.form {
+    width: 50%; /* Adjust the percentage or set a fixed width */
+    max-width: 600px; /* Optional: Prevents the form from growing too large */
+    border-radius: 8px; /* Optional: Rounded corners */
+    background-color: white;
+    padding: 20px;
+    margin-top: -45px;
+    gap: 15px;
+
+}
+
+
+
+img {
+   width: 300px;
+   height: 300px;
+}
+
+.grid-container-images {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 5px;
+
+}
+
+.image-item {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+#Ourservices-title {
+    text-align: center;
+}
+
+#our-services-text {
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.more-info {
+    display: grid;
+    justify-content: center;
+    font-size: large;
+}
+
+.info-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: larger;
+}
+
+
+/* Ensure the link looks consistent and has no text decoration */
+a {
+    color: black; /* Set the desired color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Prevent visited links from changing color */
+a:visited {
+    color: black; /* Match the default link color */
+    text-decoration: none; /* Keep text-decoration consistent */
+}
+
+a:hover {
+    color: blue; /* Optional: Change color on hover */
+    text-decoration: underline; /* Optional: Add underline on hover */
+}

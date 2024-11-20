@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Booking an appointment</title>
+    <link rel="stylesheet" type="text/css" href="personal-training.css">
+</head>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="personal-training.html" class="nav-item">Home</a>
+        <a href="our-services.html" class="nav-item">Our services</a>
+        <a href="more-info.html" class="nav-item">More information</a>
+        <a href="booking.html" class="nav-item">Booking</a>
+    </nav>
+
+    <div class="form-container">
+    <div class="form">
+    <form onsubmit="handleSubmit(event)">
+        <fieldset>
+            <legend><b>Book an appointment:</b></legend>
+            <table>
+            <tr>
+                <td><label for="firstname">First name:</label></td>
+                <td><input type="text" id="firstname" name="first_name"></td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Last name:</label></td>
+                <td><input type="text" id="lastname" name="last_name"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone:</label></td>
+                <td><input type="phone" id="phone" name="phone_number"></td>
+            </tr>
+            </table><br>
+            <div>
+                <label for="comments">Describe what you need help with:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your comments here..."></textarea><br>
+            </div><br>
+            <div>
+                <label for="current-date">Current date:</label>
+                <input type="datetime-local" id="current-date" name="date"><br>
+            </div>
+            <div>
+                <label for="checkbox">Sign up for a call</label>
+                <input type="checkbox" id="checkbox" value="checkbox"><br>
+                <label for="terms&conditions">Agree to terms and conditions</label>
+                <input type="checkbox" id="terms&conditions" value="checkbox"><br>
+                <input type="submit" value="Submit">
+            </div>
+        </fieldset>
+    </form>
+</div>
+</div>
+
+</body>
+</html>
